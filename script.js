@@ -12,7 +12,8 @@ function avaliarCandidato() {
     document.getElementById('resultado').innerHTML = "";
     document.getElementById('resultado').classList.remove("apto");
     document.getElementById('resultado').classList.remove("inapto");
-   document.getElementById('idade').value 
+   
+   //main code
    let idade = document.getElementById('idade').value;
    let nota = document.getElementById('nota').value;
    let horasVoo = document.getElementById('horasVoo').value;
